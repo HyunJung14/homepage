@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jung Myeong Hyun | future</title>
+    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/587/PNG/512/rubber-duck_icon-icons.com_55299.png">
     
     <style>
        header{
@@ -58,30 +59,47 @@
           width: 20px;  
           height: 20px;
           margin-right: 10px;
+      } 
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
+        justify-items: center; 
+        align-items: center;
       }
-      .future-title{
-        font-size: 20pt;
+
+      .image-grid figure {
+        text-align: center; 
       }
-      .goals{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
+
+      .image-grid img {
+        width: 150px;  
+        height: auto; 
+        object-fit: cover;
       }
-      .goals-item{
-        text-align: center;
-        width: 30%;
-      }
-      .goals-item img{
-        width: 100%;
-        height: auto;
-      }
+
+      .image-grid figcaption {
+        margin-top: 10px; 
+        font-size: 14px; 
+        color: #333;
+      } 
       .nav {
       box-shadow: 0 2px 2px -2px rgba(0,0,0,0.2);
       overflow: auto
       }
       .nav h1{
         text-align: center;
+      }
+      
+      ul{
+        list-style-type: none;
+        padding-left: 0;
+      }
+      .highlight-title{
+        font-size: 50px;
+      }
+      .highlight-goals{
+        font-size: 20px;
       }
       
   </style>
@@ -91,21 +109,35 @@
       
       <h1>Jung Myeong Hyun</h1>
     </div>
-    <section>
-      <h2>미래 목표</h2> 
-      <div class="goals">
-        <div class="goals-item">
-          <img src="https://github.com/HyunJung14/image/blob/main/license.png?raw=true" alt="Toeic">
-          <p>Toeic 880+</p>
-        </div>
-        <div class="goals-item">
-          <img src="https://github.com/HyunJung14/image/blob/main/license.png?raw=true" alt="Toeic">
-          <p>Toeic 880+</p>
-        </div>
-        <div class="goals-item">
-          <img src="https://github.com/HyunJung14/image/blob/main/license.png?raw=true" alt="Toeic">
-          <p>Toeic 880+</p>
-        </div>
+    <section class="container">
+      <div class="text-content">
+        <h2>앞으로의 계획</h2> 
+      </div>
+      <div class="image-grid">
+        <figure>
+          <img src="https://github.com/HyunJung14/image/blob/main/license.png?raw=true" alt="Toeic" />
+          <figcaption><h2>Toeic 800+</h2>저희 학과는 토익 700점을 넘겨야 졸업할 수 있습니다. 또한 영어 능력은 현재 많은 기업에서 중요한 평가 기준으로 삼고 있고 요즘 사회에서 비즈니스 능력을 기르려면 영어는 필수기 때문에 시험을 봐가면서 점수를 높일 계획이다.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://cdn.icon-icons.com/icons2/3405/PNG/512/drone_icon_216206.png" alt="Drone" />
+          <figcaption><h2>2종 드론자격증</h2>드론은 농사에서 중요한 역할을 할 수 있다. 비료, 농약, 물 등을 균일하게 살포할 수 있고 드론의 카메라를 이용하여 농작물의 상태를 실시간으로 모니터링 할 수 있어 생장 상태,질병 등을 파악에 더 정밀한 관리를 할 수 있으며 모니터링의 결과를 토대로 더 나은 농업 계획을 세울 수 있을 것이다. 농업용 드론은 2종으로 분류되기 때문에 2종 드론자격증을 취득할 계획이다.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://cdn.icon-icons.com/icons2/607/PNG/512/pc-computer-with-monitor_icon-icons.com_56249.png" alt="Computer" />
+          <figcaption><h2>컴퓨터활용능력 1급</h2>스마트팜학과 졸업자격 인증기준에 컴퓨터활용능력1급이 있기 때문에 자격증을 취득할 계획이다.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://cdn.icon-icons.com/icons2/3494/PNG/512/diploma_master_degree_certificate_graduation_cap_icon_220480.png" alt="복수전공" />
+          <figcaption><h2>복수전공</h2>어렸을 때부터 무엇을 만드는 것에 관심이 많았기 때문에 기계나 프로그래밍을 배울 수 있는 학과를 복수전공으로 공부 해보고 싶다. 추후 계획을 세워 2학년부터 공부 해볼 생각이다. </figcaption>
+        </figure>
+        <figure>
+          <img src="" alt="" />
+          <figcaption></figcaption>
+        </figure>
+        <figure>
+          <img src="" alt="" />
+          <figcaption></figcaption>
+        </figure>
       </div>
     </section>
 
